@@ -16,3 +16,4 @@ jobs:
         with:
           directory: .
           framework: terraform
+          output_format: cli
