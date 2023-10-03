@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - master
+      - main
 
 permissions: read-all
 
 jobs:
-  publish:
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       # Get PR from merged commit to master
